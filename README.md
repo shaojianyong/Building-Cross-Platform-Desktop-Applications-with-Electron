@@ -1,5 +1,5 @@
 #  Building Cross-Platform Desktop Applications with Electron
-代码好烂，很多执行错误，结合书籍再看看
+代码好烂，很多执行错误，结合书籍再看看<br>
 This is the code repository for [Building Cross-Platform Desktop Applications with Electron](https://www.packtpub.com/application-development/building-cross-platform-desktop-applications-electron?utm_source=github&utm_medium=repository&utm_campaign=9781786464125), published by [Packt](https://www.packtpub.com/). It contains all the supporting project files necessary to work through the book from start to finish.
 ## About the Book
 If you are a developer familiar with HTML, CSS, and JavaScript, and you wish to develop a desktop application using these technologies, then this book is for you. This book is also targeting experienced JavaScript developers with a basic understanding of frontend development and Node.js development. This book is also suitable for frontend/web developers who want to develop a desktop application using the same technologies they are using for web development.

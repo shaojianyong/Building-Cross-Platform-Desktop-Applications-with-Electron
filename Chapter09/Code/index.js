@@ -1,7 +1,7 @@
 'use strict';
-const electron, { Menu, MenuItem } = require('electron');
+const { app, BrowserWindow, Menu, MenuItem } = require('electron');
 const argv = require('yargs').argv;
-const app = electron.app;
+
 
 // prevent window being garbage collected
 let mainWindow;
@@ -11,7 +11,7 @@ function onClosed() {
 }
 
 function createMainWindow() {
-	var win = new electron.BrowserWindow({
+	var win = new BrowserWindow({
 		width: 600,
 		height: 400
 	});
@@ -81,7 +81,8 @@ function setDockMenu() {
 			label: 'New Command....'
 		}
 	]);
-	app.dock.setMenu(dockMenu);
+
+	//app.dock.setMenu(dockMenu);
 }
 
 function setThumbarButtons(win) {

@@ -4,7 +4,7 @@ const webpack = require('webpack');
 const webpackDevServer = require('webpack-dev-server');
 
 let appShell;
-let appUrl = 'http://localhost:3000';
+let appUrl = 'https://github.com';
 
 const template = [
 	{

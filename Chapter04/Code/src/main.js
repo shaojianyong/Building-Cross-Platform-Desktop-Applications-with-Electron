@@ -14,7 +14,7 @@ function createElectronShell() {
 		mainWindow = null;
 	});
 
-	mainWindow.loadURL('http://localhost:808/");
+	mainWindow.loadURL('http://localhost:8080/');
 
 	ipcMain.on("facebook-button-clicked", function (event, arg) {
 			var options = {

@@ -41,6 +41,7 @@
     "webpack-dev-server": "^1.16.0"
   },
   "scripts": {
+    "electron": "electron .",
     "start": "webpack --config ./devutils/webpack/webpack.config.js",
     "server": "webpack-dev-server --inline --progress --port 3000 --config ./devutils/webpack/webpack.config.js --watch"
   },

@@ -44,11 +44,11 @@ function createElectronShell() {
     contents.on('dom-ready', (e) => {
         setTimeout(function () {
             contents.capturePage((img) => {
-                saveImage(img, '/Users/Jasim/Desktop/capture.png');
+                saveImage(img, 'C:\\1.png');
             });
             // captures specific area on screen
             contents.capturePage({ x: 10, y: 10, height: 400, width: 500 }, (img) => {
-                saveImage(img, '/Users/Jasim/Desktop/capture-partial.png');
+                saveImage(img, 'C:\\2.png');
             });
         }, 5000);
     });
